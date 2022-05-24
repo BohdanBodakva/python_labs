@@ -21,3 +21,6 @@ class Employee(ABC):
     @abstractmethod
     def do_work(self) -> None:
         pass
+
+    def __str__(self) -> str:
+        return f"name: {self.__name}, age: {self.__age} y.o."
