@@ -1,10 +1,13 @@
-# lab1
+# lab3
 
-Develop a hierarchy of classes according to the obtained task (table 1) and describe them in Python algorithmic language.
-Parent and daughter classes must be used
-Important: child classes must contain additional attributes that are missing in the parent, and differ for two different child classes
- Write a snippet of the program using objects of created class types.
+This lab provides code writing that executes a Python spreadsheet 
+using regular expressions, the file should be archived and opened 
+as a Python program archive.
 
 TASK:
 
-Employee: manager, scientist, worker, foreman.
+Output and count the number of successful HEAD requests in the file between 07 / Mar / 2004: 10: 49: 28 to 08 / Mar / 2004: 19: 35: 11
+Example:
+206-15-133-181.dialup.ziplink.net - - [07 / Mar / 2004: 20: 04: 03 -0800] "HEAD / twiki / bin / view / Main / SpamAssassinDeleting HTTP / 1.1" 200 0
+
+Log file (archive) https://drive.google.com/file/d/0B1k21nkk13PYZ0l5eUdkOUtOa2M/view?resourcekey=0-nRp4oErzb90C-ztfeqp9LQ
