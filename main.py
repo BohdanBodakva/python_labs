@@ -7,7 +7,8 @@ def main():
     with ZipFile("access_log_Jul95.zip") as zip:
         zip.extractall()
 
-    logs_file = open("access_log_Jul95", "r").read().split("\n")
+    with open("access_log_Jul95", "r") as zip_file:
+        logs_file = zip_file.read().split("\n")
 
     regex = re.compile('[(\d{3})(\w+)].+ - - \[(\d{2}\/\w{3}\/\d{4}:\d{2}:\d{2}:\d{2})'
                        ' -\d{4}\] "HEAD.+HTTP\/\d\.\d" 200 \d+')
